@@ -1,0 +1,1381 @@
+{
+    "_": {
+        "editor": {
+            "view": {
+                "view-store-zoom": false,
+                "view-store-position": false,
+                "view-show-grid": true,
+                "view-snap-grid": true,
+                "view-grid-size": 20,
+                "view-node-status": true,
+                "view-node-show-label": true,
+                "view-show-tips": true,
+                "view-show-welcome-tours": true
+            },
+            "tours": {
+                "welcome": "4.0.2"
+            }
+        },
+        "menu-menu-item-sidebar": false,
+        "treelist": [
+            {
+                "id": 1,
+                "pId": null,
+                "name": "System",
+                "open": true,
+                "isParent": true,
+                "class": "icon-system",
+                "children": [
+                    {
+                        "id": 11,
+                        "pId": 1,
+                        "name": "Configuration",
+                        "class": "icon-config",
+                        "isParent": true,
+                        "level": 1,
+                        "tId": "xapptreelist_2",
+                        "parentTId": "xapptreelist_1",
+                        "open": true,
+                        "zAsync": true,
+                        "isFirstNode": true,
+                        "isLastNode": false,
+                        "isAjaxing": false,
+                        "checked": false,
+                        "checkedOld": false,
+                        "nocheck": false,
+                        "chkDisabled": false,
+                        "halfCheck": false,
+                        "check_Child_State": 0,
+                        "check_Focus": false,
+                        "isHover": false,
+                        "editNameFlag": false,
+                        "children": [
+                            {
+                                "id": "ba5fe9fe.9cfdc8",
+                                "type": "s7.config",
+                                "name": "Connection",
+                                "class": "icon-connection",
+                                "payload": {},
+                                "users": [],
+                                "_def": {
+                                    "category": "config",
+                                    "autoedit": true,
+                                    "defaults": {
+                                        "name": {
+                                            "value": "_connection"
+                                        },
+                                        "ip": {
+                                            "value": "192.168.1.200",
+                                            "required": true
+                                        },
+                                        "port": {
+                                            "value": "102",
+                                            "required": true
+                                        },
+                                        "rack": {
+                                            "value": "0",
+                                            "required": true
+                                        },
+                                        "slot": {
+                                            "value": "1",
+                                            "required": true
+                                        },
+                                        "cycletime": {
+                                            "value": "500",
+                                            "required": true
+                                        },
+                                        "timeout": {
+                                            "value": "1500",
+                                            "required": true
+                                        },
+                                        "verbose": {
+                                            "value": "on",
+                                            "required": true
+                                        },
+                                        "payload": {
+                                            "value": {},
+                                            "required": true
+                                        },
+                                        "class": {
+                                            "value": "icon-connection"
+                                        }
+                                    },
+                                    "type": "s7.config",
+                                    "set": {
+                                        "id": "node-red/s7.config",
+                                        "name": "s7.config",
+                                        "types": [
+                                            "s7.config"
+                                        ],
+                                        "enabled": true,
+                                        "local": false,
+                                        "user": false,
+                                        "module": "node-red",
+                                        "version": "4.0.2",
+                                        "added": true
+                                    }
+                                },
+                                "ip": "192.168.1.200",
+                                "port": "102",
+                                "rack": "0",
+                                "slot": "1",
+                                "cycletime": "500",
+                                "timeout": "1500",
+                                "verbose": "on",
+                                "level": 2,
+                                "tId": "xapptreelist_3",
+                                "parentTId": "xapptreelist_2",
+                                "open": true,
+                                "isParent": true,
+                                "zAsync": true,
+                                "isFirstNode": true,
+                                "isLastNode": true,
+                                "isAjaxing": false,
+                                "pId": 11,
+                                "checked": false,
+                                "checkedOld": false,
+                                "nocheck": false,
+                                "chkDisabled": false,
+                                "halfCheck": false,
+                                "check_Child_State": 0,
+                                "check_Focus": false,
+                                "isHover": false,
+                                "editNameFlag": false,
+                                "children": [
+                                    {
+                                        "id": "4f69520b.9c331c",
+                                        "name": "Machine ",
+                                        "z": "f2e5f32a.4dcff",
+                                        "type": "s7.group",
+                                        "class": "icon-group",
+                                        "users": [],
+                                        "connection": "ba5fe9fe.9cfdc8",
+                                        "_def": {
+                                            "category": "config",
+                                            "autoedit": true,
+                                            "defaults": {
+                                                "name": {
+                                                    "value": "_groupe"
+                                                },
+                                                "connection": {}
+                                            },
+                                            "type": "s7.group",
+                                            "set": {
+                                                "id": "node-red/s7.group",
+                                                "name": "s7.group",
+                                                "types": [
+                                                    "s7.group"
+                                                ],
+                                                "enabled": true,
+                                                "local": false,
+                                                "user": false,
+                                                "module": "node-red",
+                                                "version": "4.0.2",
+                                                "added": true
+                                            }
+                                        },
+                                        "level": 3,
+                                        "tId": "xapptreelist_4",
+                                        "parentTId": "xapptreelist_3",
+                                        "open": false,
+                                        "isParent": false,
+                                        "zAsync": true,
+                                        "isFirstNode": true,
+                                        "isLastNode": true,
+                                        "isAjaxing": false,
+                                        "pId": "ba5fe9fe.9cfdc8",
+                                        "checked": false,
+                                        "checkedOld": false,
+                                        "nocheck": false,
+                                        "chkDisabled": false,
+                                        "halfCheck": false,
+                                        "check_Child_State": -1,
+                                        "check_Focus": false,
+                                        "isHover": false,
+                                        "editNameFlag": false
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 12,
+                        "pId": 1,
+                        "name": "Data Base",
+                        "class": "icon-database",
+                        "isParent": true,
+                        "level": 1,
+                        "tId": "xapptreelist_5",
+                        "parentTId": "xapptreelist_1",
+                        "open": true,
+                        "zAsync": true,
+                        "isFirstNode": false,
+                        "isLastNode": false,
+                        "isAjaxing": false,
+                        "checked": false,
+                        "checkedOld": false,
+                        "nocheck": false,
+                        "chkDisabled": false,
+                        "halfCheck": false,
+                        "check_Child_State": 0,
+                        "check_Focus": false,
+                        "isHover": false,
+                        "editNameFlag": false,
+                        "children": [
+                            {
+                                "id": "647fbbe6.00b364",
+                                "type": "s7.db",
+                                "name": "XAPP",
+                                "class": "icon-database",
+                                "payload": {},
+                                "users": [],
+                                "_def": {
+                                    "category": "config",
+                                    "color": "#68B368",
+                                    "autoedit": true,
+                                    "defaults": {
+                                        "uri": {
+                                            "value": "mongodb://localhost:27017/xapp"
+                                        },
+                                        "name": {
+                                            "value": "XAPP"
+                                        },
+                                        "options": {
+                                            "value": ""
+                                        },
+                                        "parallelism": {
+                                            "value": -1
+                                        }
+                                    },
+                                    "credentials": {
+                                        "user": {
+                                            "type": "text"
+                                        },
+                                        "password": {
+                                            "type": "password"
+                                        }
+                                    },
+                                    "type": "s7.db",
+                                    "set": {
+                                        "id": "node-red/s7.db",
+                                        "name": "s7.db",
+                                        "types": [
+                                            "s7.db",
+                                            "s7.db.in"
+                                        ],
+                                        "enabled": true,
+                                        "local": false,
+                                        "user": false,
+                                        "module": "node-red",
+                                        "version": "4.0.2",
+                                        "added": true
+                                    }
+                                },
+                                "uri": "mongodb://localhost:27017/xapp",
+                                "options": "",
+                                "parallelism": -1,
+                                "level": 2,
+                                "tId": "xapptreelist_6",
+                                "parentTId": "xapptreelist_5",
+                                "open": false,
+                                "isParent": false,
+                                "zAsync": true,
+                                "isFirstNode": true,
+                                "isLastNode": true,
+                                "isAjaxing": false,
+                                "pId": 12,
+                                "checked": false,
+                                "checkedOld": false,
+                                "nocheck": false,
+                                "chkDisabled": false,
+                                "halfCheck": false,
+                                "check_Child_State": -1,
+                                "check_Focus": false,
+                                "isHover": false,
+                                "editNameFlag": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 13,
+                        "pId": 1,
+                        "name": "Data Point",
+                        "class": "icon-datapoint",
+                        "isParent": true,
+                        "level": 1,
+                        "tId": "xapptreelist_7",
+                        "parentTId": "xapptreelist_1",
+                        "open": true,
+                        "zAsync": true,
+                        "isFirstNode": false,
+                        "isLastNode": false,
+                        "isAjaxing": false,
+                        "checked": false,
+                        "checkedOld": false,
+                        "nocheck": false,
+                        "chkDisabled": false,
+                        "halfCheck": false,
+                        "check_Child_State": 0,
+                        "check_Focus": false,
+                        "isHover": false,
+                        "editNameFlag": false,
+                        "children": [
+                            {
+                                "id": "fc66985.e158268",
+                                "type": "s7.statemachine",
+                                "name": "_StateMachine",
+                                "class": "icon-statemachine",
+                                "parentid": 13,
+                                "z": "f2e5f32a.4dcff",
+                                "payload": {},
+                                "states": {},
+                                "datapoints": {},
+                                "x": 0,
+                                "y": 0,
+                                "width": 5,
+                                "height": 5,
+                                "_def": {
+                                    "category": "input",
+                                    "autoedit": true,
+                                    "defaults": {
+                                        "name": {
+                                            "value": "_StateMachine"
+                                        },
+                                        "tag": {
+                                            "value": ""
+                                        },
+                                        "parentid": {},
+                                        "datapoints": {
+                                            "value": {}
+                                        },
+                                        "payload": {
+                                            "value": {}
+                                        },
+                                        "startbit": {
+                                            "value": 0
+                                        },
+                                        "database": {
+                                            "value": ""
+                                        },
+                                        "z": {},
+                                        "x": {
+                                            "value": 0
+                                        },
+                                        "y": {
+                                            "value": 0
+                                        },
+                                        "width": {
+                                            "value": 5
+                                        },
+                                        "height": {
+                                            "value": 5
+                                        },
+                                        "filter": {
+                                            "value": "today"
+                                        },
+                                        "startdate": {
+                                            "value": "Tue Aug 06 2024 00:00:00 GMT+0100"
+                                        },
+                                        "enddate": {
+                                            "value": "Tue Aug 06 2024 23:59:59 GMT+0100"
+                                        },
+                                        "dbnone": {
+                                            "value": false
+                                        },
+                                        "dbrepeat": {
+                                            "value": ""
+                                        },
+                                        "once": {
+                                            "value": false
+                                        }
+                                    },
+                                    "type": "s7.statemachine",
+                                    "set": {
+                                        "id": "node-red/s7.statemachine",
+                                        "name": "s7.statemachine",
+                                        "types": [
+                                            "s7.statemachine"
+                                        ],
+                                        "enabled": true,
+                                        "local": false,
+                                        "user": false,
+                                        "module": "node-red",
+                                        "version": "4.0.2",
+                                        "added": true
+                                    }
+                                },
+                                "tag": "",
+                                "startbit": 0,
+                                "database": "",
+                                "filter": "today",
+                                "startdate": "Tue Aug 06 2024 00:00:00 GMT+0100",
+                                "enddate": "Tue Aug 06 2024 23:59:59 GMT+0100",
+                                "dbnone": false,
+                                "dbrepeat": "",
+                                "once": false,
+                                "level": 2,
+                                "tId": "xapptreelist_8",
+                                "parentTId": "xapptreelist_7",
+                                "open": true,
+                                "isParent": true,
+                                "zAsync": true,
+                                "isFirstNode": true,
+                                "isLastNode": true,
+                                "isAjaxing": false,
+                                "pId": 13,
+                                "checked": false,
+                                "checkedOld": false,
+                                "nocheck": false,
+                                "chkDisabled": false,
+                                "halfCheck": false,
+                                "check_Child_State": 0,
+                                "check_Focus": false,
+                                "isHover": true,
+                                "editNameFlag": false,
+                                "children": [
+                                    {
+                                        "id": "36af78aa.e9eb38",
+                                        "name": "_BatchPhases",
+                                        "type": "s7.phase",
+                                        "parentid": "fc66985.e158268",
+                                        "z": "f2e5f32a.4dcff",
+                                        "class": "icon-alarm",
+                                        "payload": {},
+                                        "x": 0,
+                                        "y": 0,
+                                        "_def": {
+                                            "category": "input",
+                                            "autoedit": true,
+                                            "defaults": {
+                                                "name": {
+                                                    "value": "_BatchPhases"
+                                                },
+                                                "tag": {
+                                                    "value": ""
+                                                },
+                                                "database": {
+                                                    "value": ""
+                                                },
+                                                "parentid": {},
+                                                "datapoints": {
+                                                    "value": {}
+                                                },
+                                                "payload": {
+                                                    "value": {}
+                                                },
+                                                "z": {},
+                                                "x": {
+                                                    "value": 0
+                                                },
+                                                "y": {
+                                                    "value": 0
+                                                },
+                                                "db": {
+                                                    "value": ""
+                                                }
+                                            },
+                                            "type": "s7.phase",
+                                            "set": {
+                                                "id": "node-red/s7.phase",
+                                                "name": "s7.phase",
+                                                "types": [
+                                                    "s7.phase"
+                                                ],
+                                                "enabled": true,
+                                                "local": false,
+                                                "user": false,
+                                                "module": "node-red",
+                                                "version": "4.0.2",
+                                                "added": true
+                                            }
+                                        },
+                                        "tag": "",
+                                        "database": "",
+                                        "datapoints": {},
+                                        "db": "",
+                                        "level": 3,
+                                        "tId": "xapptreelist_9",
+                                        "parentTId": "xapptreelist_8",
+                                        "open": false,
+                                        "isParent": false,
+                                        "zAsync": true,
+                                        "isFirstNode": true,
+                                        "isLastNode": true,
+                                        "isAjaxing": false,
+                                        "pId": "fc66985.e158268",
+                                        "checked": false,
+                                        "checkedOld": false,
+                                        "nocheck": false,
+                                        "chkDisabled": false,
+                                        "halfCheck": false,
+                                        "check_Child_State": -1,
+                                        "check_Focus": false,
+                                        "isHover": false,
+                                        "editNameFlag": false
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 14,
+                        "pId": 1,
+                        "name": "Dashboard",
+                        "class": "icon-dashboard",
+                        "isParent": true,
+                        "level": 1,
+                        "tId": "xapptreelist_10",
+                        "parentTId": "xapptreelist_1",
+                        "open": true,
+                        "zAsync": true,
+                        "isFirstNode": false,
+                        "isLastNode": false,
+                        "isAjaxing": false,
+                        "checked": false,
+                        "checkedOld": false,
+                        "nocheck": false,
+                        "chkDisabled": false,
+                        "halfCheck": false,
+                        "check_Child_State": 0,
+                        "check_Focus": false,
+                        "isHover": false,
+                        "editNameFlag": false,
+                        "children": [
+                            {
+                                "id": "74210e40.0b08b",
+                                "type": "ui.tab",
+                                "order": 0,
+                                "name": "_Dashboard",
+                                "class": "icon-ui-tab",
+                                "users": [],
+                                "_def": {
+                                    "category": "config",
+                                    "autoedit": true,
+                                    "defaults": {
+                                        "name": {
+                                            "value": "_Dashboard"
+                                        },
+                                        "icon": {
+                                            "value": "dashboard"
+                                        },
+                                        "parentid": {},
+                                        "z": {},
+                                        "order": {
+                                            "value": 0
+                                        },
+                                        "disabled": {
+                                            "value": false
+                                        },
+                                        "hidden": {
+                                            "value": false
+                                        },
+                                        "startdate": {
+                                            "value": "2024-08-05T23:00:00.000Z"
+                                        },
+                                        "enddate": {
+                                            "value": "2024-08-06T22:59:59.999Z"
+                                        }
+                                    },
+                                    "paletteLabel": "dashboard tab",
+                                    "type": "ui.tab",
+                                    "set": {
+                                        "id": "node-red/ui.tab",
+                                        "name": "ui.tab",
+                                        "types": [
+                                            "ui.tab"
+                                        ],
+                                        "enabled": true,
+                                        "local": false,
+                                        "user": false,
+                                        "module": "node-red",
+                                        "version": "4.0.2",
+                                        "added": true
+                                    }
+                                },
+                                "icon": "dashboard",
+                                "disabled": false,
+                                "hidden": false,
+                                "startdate": "2024-08-05T23:00:00.000Z",
+                                "enddate": "2024-08-06T22:59:59.999Z",
+                                "level": 2,
+                                "tId": "xapptreelist_11",
+                                "parentTId": "xapptreelist_10",
+                                "open": true,
+                                "isParent": true,
+                                "zAsync": true,
+                                "isFirstNode": true,
+                                "isLastNode": true,
+                                "isAjaxing": false,
+                                "pId": 14,
+                                "checked": false,
+                                "checkedOld": false,
+                                "nocheck": false,
+                                "chkDisabled": false,
+                                "halfCheck": false,
+                                "check_Child_State": 0,
+                                "check_Focus": false,
+                                "isHover": false,
+                                "editNameFlag": false,
+                                "children": [
+                                    {
+                                        "id": "5d6bea12.be5234",
+                                        "type": "ui.gauge",
+                                        "parentid": "74210e40.0b08b",
+                                        "z": "f2e5f32a.4dcff",
+                                        "name": "_Gauge",
+                                        "_def": {
+                                            "category": "dashboard",
+                                            "color": "rgb(119, 198, 204)",
+                                            "autoedit": true,
+                                            "defaults": {
+                                                "name": {
+                                                    "value": "_Gauge"
+                                                },
+                                                "parentid": {},
+                                                "tag": {
+                                                    "value": ""
+                                                },
+                                                "width": {
+                                                    "value": 5
+                                                },
+                                                "height": {
+                                                    "value": 5
+                                                },
+                                                "class": {
+                                                    "value": "icon-ui-gauge"
+                                                },
+                                                "x": {
+                                                    "value": 0
+                                                },
+                                                "y": {
+                                                    "value": 0
+                                                },
+                                                "z": {},
+                                                "field": {
+                                                    "value": "payload"
+                                                },
+                                                "fieldType": {
+                                                    "value": "msg"
+                                                },
+                                                "formatt": {
+                                                    "value": "handlebars"
+                                                },
+                                                "syntax": {
+                                                    "value": "mustache"
+                                                },
+                                                "template": {
+                                                    "value": ""
+                                                },
+                                                "output": {
+                                                    "value": "str"
+                                                }
+                                            },
+                                            "inputs": 1,
+                                            "outputs": 1,
+                                            "outputLabels": [
+                                                "chart state"
+                                            ],
+                                            "align": "right",
+                                            "icon": "ui_chart.png",
+                                            "paletteLabel": "chart",
+                                            "type": "ui.gauge",
+                                            "set": {
+                                                "id": "node-red/ui.gauge",
+                                                "name": "ui.gauge",
+                                                "types": [
+                                                    "ui.gauge"
+                                                ],
+                                                "enabled": true,
+                                                "local": false,
+                                                "user": false,
+                                                "module": "node-red",
+                                                "version": "4.0.2",
+                                                "added": true
+                                            }
+                                        },
+                                        "tag": "",
+                                        "width": 5,
+                                        "height": 5,
+                                        "class": "icon-ui-gauge",
+                                        "x": 0,
+                                        "y": 0,
+                                        "field": "payload",
+                                        "fieldType": "msg",
+                                        "formatt": "handlebars",
+                                        "syntax": "mustache",
+                                        "template": "",
+                                        "output": "str",
+                                        "level": 3,
+                                        "tId": "xapptreelist_12",
+                                        "parentTId": "xapptreelist_11",
+                                        "open": false,
+                                        "isParent": false,
+                                        "zAsync": true,
+                                        "isFirstNode": true,
+                                        "isLastNode": false,
+                                        "isAjaxing": false,
+                                        "pId": "74210e40.0b08b",
+                                        "checked": false,
+                                        "checkedOld": false,
+                                        "nocheck": false,
+                                        "chkDisabled": false,
+                                        "halfCheck": false,
+                                        "check_Child_State": -1,
+                                        "check_Focus": false,
+                                        "isHover": false,
+                                        "editNameFlag": false
+                                    },
+                                    {
+                                        "id": "11769b47.f759e5",
+                                        "type": "ui.template",
+                                        "parentid": "74210e40.0b08b",
+                                        "z": "f2e5f32a.4dcff",
+                                        "name": "_Template",
+                                        "class": "icon-file",
+                                        "_def": {
+                                            "color": "rgb(243, 181, 103)",
+                                            "category": "function",
+                                            "autoedit": true,
+                                            "defaults": {
+                                                "name": {
+                                                    "value": "_Template"
+                                                },
+                                                "parentid": {},
+                                                "datapoints": {
+                                                    "value": {}
+                                                },
+                                                "tag": {
+                                                    "value": ""
+                                                },
+                                                "width": {
+                                                    "value": 5
+                                                },
+                                                "height": {
+                                                    "value": 5
+                                                },
+                                                "z": {},
+                                                "x": {
+                                                    "value": 0
+                                                },
+                                                "y": {
+                                                    "value": 0
+                                                },
+                                                "class": {
+                                                    "value": "icon-file"
+                                                },
+                                                "field": {
+                                                    "value": "payload"
+                                                },
+                                                "fieldType": {
+                                                    "value": "msg"
+                                                },
+                                                "formatt": {
+                                                    "value": "handlebars"
+                                                },
+                                                "syntax": {
+                                                    "value": "mustache"
+                                                },
+                                                "template": {
+                                                    "value": "This is the payload: {{payload}} !"
+                                                },
+                                                "output": {
+                                                    "value": "str"
+                                                }
+                                            },
+                                            "inputs": 1,
+                                            "outputs": 1,
+                                            "icon": "template.svg",
+                                            "type": "ui.template",
+                                            "set": {
+                                                "id": "node-red/ui.template",
+                                                "name": "ui.template",
+                                                "types": [
+                                                    "ui.template"
+                                                ],
+                                                "enabled": true,
+                                                "local": false,
+                                                "user": false,
+                                                "module": "node-red",
+                                                "version": "4.0.2",
+                                                "added": true
+                                            }
+                                        },
+                                        "datapoints": {},
+                                        "tag": "",
+                                        "width": 5,
+                                        "height": 5,
+                                        "x": 0,
+                                        "y": 0,
+                                        "field": "payload",
+                                        "fieldType": "msg",
+                                        "formatt": "handlebars",
+                                        "syntax": "mustache",
+                                        "template": "This is the payload: {{payload}} !",
+                                        "output": "str",
+                                        "level": 3,
+                                        "tId": "xapptreelist_13",
+                                        "parentTId": "xapptreelist_11",
+                                        "open": false,
+                                        "isParent": false,
+                                        "zAsync": true,
+                                        "isFirstNode": false,
+                                        "isLastNode": false,
+                                        "isAjaxing": false,
+                                        "pId": "74210e40.0b08b",
+                                        "checked": false,
+                                        "checkedOld": false,
+                                        "nocheck": false,
+                                        "chkDisabled": false,
+                                        "halfCheck": false,
+                                        "check_Child_State": -1,
+                                        "check_Focus": false,
+                                        "isHover": false,
+                                        "editNameFlag": false
+                                    },
+                                    {
+                                        "id": "ab6be282.5f765",
+                                        "type": "ui.piechart",
+                                        "parentid": "74210e40.0b08b",
+                                        "z": "f2e5f32a.4dcff",
+                                        "name": "_PeiChart",
+                                        "datapoints": {},
+                                        "_def": {
+                                            "category": "dashboard",
+                                            "color": "rgb(119, 198, 204)",
+                                            "autoedit": true,
+                                            "defaults": {
+                                                "name": {
+                                                    "value": "_PeiChart"
+                                                },
+                                                "order": {
+                                                    "value": 0
+                                                },
+                                                "payload": {
+                                                    "value": {}
+                                                },
+                                                "parentid": {},
+                                                "z": {},
+                                                "datapoints": {
+                                                    "value": {}
+                                                },
+                                                "width": {
+                                                    "value": 5
+                                                },
+                                                "height": {
+                                                    "value": 5
+                                                },
+                                                "x": {
+                                                    "value": 0
+                                                },
+                                                "y": {
+                                                    "value": 0
+                                                },
+                                                "class": {
+                                                    "value": "icon-ui-piechart"
+                                                },
+                                                "startdate": {
+                                                    "value": "2024-08-05T23:00:00.000Z"
+                                                },
+                                                "enddate": {
+                                                    "value": "2024-08-06T22:59:59.999Z"
+                                                },
+                                                "charttheme": {
+                                                    "value": "infographic"
+                                                },
+                                                "title": {
+                                                    "value": "title"
+                                                },
+                                                "subtitle": {
+                                                    "value": "subtitle"
+                                                },
+                                                "title_alignvertical": {
+                                                    "value": "top"
+                                                },
+                                                "title_alignhorizontal": {
+                                                    "value": "left"
+                                                },
+                                                "show_title": {
+                                                    "value": true
+                                                },
+                                                "show_toolbox": {
+                                                    "value": true
+                                                },
+                                                "toolbox_alignvertical": {
+                                                    "value": "top"
+                                                },
+                                                "toolbox_alignhorizontal": {
+                                                    "value": "right"
+                                                },
+                                                "toolbox_orientation": {
+                                                    "value": "vertical"
+                                                },
+                                                "show_legend": {
+                                                    "value": true
+                                                },
+                                                "legend_alignvertical": {
+                                                    "value": "bottom"
+                                                },
+                                                "legend_alignhorizontal": {
+                                                    "value": "center"
+                                                },
+                                                "legend_orientation": {
+                                                    "value": "horizontal"
+                                                },
+                                                "chartType": {
+                                                    "value": "pie"
+                                                },
+                                                "radius": {
+                                                    "value": "20"
+                                                },
+                                                "chartsize": {
+                                                    "value": "50"
+                                                },
+                                                "center_horizontal": {
+                                                    "value": "50"
+                                                },
+                                                "center_vertical": {
+                                                    "value": "50"
+                                                },
+                                                "roseType": {
+                                                    "value": "radius"
+                                                },
+                                                "colors": {
+                                                    "value": [
+                                                        "#1F77B4",
+                                                        "#AEC7E8",
+                                                        "#FF7F0E",
+                                                        "#2CA02C",
+                                                        "#98DF8A",
+                                                        "#D62728",
+                                                        "#FF9896",
+                                                        "#9467BD",
+                                                        "#C5B0D5"
+                                                    ]
+                                                },
+                                                "outputs": {
+                                                    "value": 1
+                                                }
+                                            },
+                                            "inputs": 1,
+                                            "outputs": 1,
+                                            "outputLabels": [
+                                                "chart state"
+                                            ],
+                                            "align": "right",
+                                            "icon": "ui_chart.png",
+                                            "paletteLabel": "chart",
+                                            "type": "ui.piechart",
+                                            "set": {
+                                                "id": "node-red/ui.piechart",
+                                                "name": "ui.piechart",
+                                                "types": [
+                                                    "ui.piechart"
+                                                ],
+                                                "enabled": true,
+                                                "local": false,
+                                                "user": false,
+                                                "module": "node-red",
+                                                "version": "4.0.2",
+                                                "added": true
+                                            }
+                                        },
+                                        "order": 0,
+                                        "payload": {},
+                                        "width": 5,
+                                        "height": 5,
+                                        "x": 0,
+                                        "y": 0,
+                                        "class": "icon-ui-piechart",
+                                        "startdate": "2024-08-05T23:00:00.000Z",
+                                        "enddate": "2024-08-06T22:59:59.999Z",
+                                        "charttheme": "infographic",
+                                        "title": "title",
+                                        "subtitle": "subtitle",
+                                        "title_alignvertical": "top",
+                                        "title_alignhorizontal": "left",
+                                        "show_title": true,
+                                        "show_toolbox": true,
+                                        "toolbox_alignvertical": "top",
+                                        "toolbox_alignhorizontal": "right",
+                                        "toolbox_orientation": "vertical",
+                                        "show_legend": true,
+                                        "legend_alignvertical": "bottom",
+                                        "legend_alignhorizontal": "center",
+                                        "legend_orientation": "horizontal",
+                                        "chartType": "pie",
+                                        "radius": "20",
+                                        "chartsize": "50",
+                                        "center_horizontal": "50",
+                                        "center_vertical": "50",
+                                        "roseType": "radius",
+                                        "colors": [
+                                            "#1F77B4",
+                                            "#AEC7E8",
+                                            "#FF7F0E",
+                                            "#2CA02C",
+                                            "#98DF8A",
+                                            "#D62728",
+                                            "#FF9896",
+                                            "#9467BD",
+                                            "#C5B0D5"
+                                        ],
+                                        "outputs": 1,
+                                        "level": 3,
+                                        "tId": "xapptreelist_14",
+                                        "parentTId": "xapptreelist_11",
+                                        "open": false,
+                                        "isParent": false,
+                                        "zAsync": true,
+                                        "isFirstNode": false,
+                                        "isLastNode": true,
+                                        "isAjaxing": false,
+                                        "pId": "74210e40.0b08b",
+                                        "checked": false,
+                                        "checkedOld": false,
+                                        "nocheck": false,
+                                        "chkDisabled": false,
+                                        "halfCheck": false,
+                                        "check_Child_State": -1,
+                                        "check_Focus": false,
+                                        "isHover": false,
+                                        "editNameFlag": false
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 15,
+                        "pId": 1,
+                        "name": "Mobile",
+                        "class": "icon-mobile",
+                        "isParent": true,
+                        "level": 1,
+                        "tId": "xapptreelist_15",
+                        "parentTId": "xapptreelist_1",
+                        "open": false,
+                        "zAsync": false,
+                        "isFirstNode": false,
+                        "isLastNode": false,
+                        "isAjaxing": false,
+                        "checked": false,
+                        "checkedOld": false,
+                        "nocheck": false,
+                        "chkDisabled": false,
+                        "halfCheck": false,
+                        "check_Child_State": -1,
+                        "check_Focus": false,
+                        "isHover": false,
+                        "editNameFlag": false
+                    },
+                    {
+                        "id": 16,
+                        "pId": 1,
+                        "name": "Report",
+                        "class": "icon-report",
+                        "isParent": true,
+                        "level": 1,
+                        "tId": "xapptreelist_16",
+                        "parentTId": "xapptreelist_1",
+                        "open": false,
+                        "zAsync": false,
+                        "isFirstNode": false,
+                        "isLastNode": false,
+                        "isAjaxing": false,
+                        "checked": false,
+                        "checkedOld": false,
+                        "nocheck": false,
+                        "chkDisabled": false,
+                        "halfCheck": false,
+                        "check_Child_State": -1,
+                        "check_Focus": false,
+                        "isHover": false,
+                        "editNameFlag": false
+                    },
+                    {
+                        "id": 17,
+                        "pId": 1,
+                        "name": "Extras",
+                        "class": "icon-demos",
+                        "isParent": true,
+                        "children": [
+                            {
+                                "id": 141,
+                                "pId": 17,
+                                "name": "Demo 01",
+                                "class": "icon-demos",
+                                "isParent": false,
+                                "level": 2,
+                                "tId": "xapptreelist_18",
+                                "parentTId": "xapptreelist_17",
+                                "open": false,
+                                "zAsync": true,
+                                "isFirstNode": true,
+                                "isLastNode": false,
+                                "isAjaxing": false,
+                                "checked": false,
+                                "checkedOld": false,
+                                "nocheck": false,
+                                "chkDisabled": false,
+                                "halfCheck": false,
+                                "check_Child_State": -1,
+                                "check_Focus": false,
+                                "isHover": false,
+                                "editNameFlag": false
+                            },
+                            {
+                                "id": 142,
+                                "pId": 17,
+                                "name": "Demo 02",
+                                "class": "icon-demos",
+                                "isParent": false,
+                                "level": 2,
+                                "tId": "xapptreelist_19",
+                                "parentTId": "xapptreelist_17",
+                                "open": false,
+                                "zAsync": true,
+                                "isFirstNode": false,
+                                "isLastNode": false,
+                                "isAjaxing": false,
+                                "checked": false,
+                                "checkedOld": false,
+                                "nocheck": false,
+                                "chkDisabled": false,
+                                "halfCheck": false,
+                                "check_Child_State": -1,
+                                "check_Focus": false,
+                                "isHover": false,
+                                "editNameFlag": false
+                            },
+                            {
+                                "id": 143,
+                                "pId": 17,
+                                "name": "Demo 03",
+                                "class": "icon-demos",
+                                "isParent": false,
+                                "level": 2,
+                                "tId": "xapptreelist_20",
+                                "parentTId": "xapptreelist_17",
+                                "open": false,
+                                "zAsync": true,
+                                "isFirstNode": false,
+                                "isLastNode": false,
+                                "isAjaxing": false,
+                                "checked": false,
+                                "checkedOld": false,
+                                "nocheck": false,
+                                "chkDisabled": false,
+                                "halfCheck": false,
+                                "check_Child_State": -1,
+                                "check_Focus": false,
+                                "isHover": false,
+                                "editNameFlag": false
+                            },
+                            {
+                                "id": 144,
+                                "pId": 17,
+                                "name": "Demo 04",
+                                "class": "icon-demos",
+                                "isParent": false,
+                                "level": 2,
+                                "tId": "xapptreelist_21",
+                                "parentTId": "xapptreelist_17",
+                                "open": false,
+                                "zAsync": true,
+                                "isFirstNode": false,
+                                "isLastNode": false,
+                                "isAjaxing": false,
+                                "checked": false,
+                                "checkedOld": false,
+                                "nocheck": false,
+                                "chkDisabled": false,
+                                "halfCheck": false,
+                                "check_Child_State": -1,
+                                "check_Focus": false,
+                                "isHover": false,
+                                "editNameFlag": false
+                            },
+                            {
+                                "id": 145,
+                                "pId": 17,
+                                "name": "Demo 05",
+                                "class": "icon-demos",
+                                "isParent": false,
+                                "level": 2,
+                                "tId": "xapptreelist_22",
+                                "parentTId": "xapptreelist_17",
+                                "open": false,
+                                "zAsync": true,
+                                "isFirstNode": false,
+                                "isLastNode": false,
+                                "isAjaxing": false,
+                                "checked": false,
+                                "checkedOld": false,
+                                "nocheck": false,
+                                "chkDisabled": false,
+                                "halfCheck": false,
+                                "check_Child_State": -1,
+                                "check_Focus": false,
+                                "isHover": false,
+                                "editNameFlag": false
+                            },
+                            {
+                                "id": 146,
+                                "pId": 17,
+                                "name": "Demo 06",
+                                "class": "icon-demos",
+                                "isParent": false,
+                                "level": 2,
+                                "tId": "xapptreelist_23",
+                                "parentTId": "xapptreelist_17",
+                                "open": false,
+                                "zAsync": true,
+                                "isFirstNode": false,
+                                "isLastNode": false,
+                                "isAjaxing": false,
+                                "checked": false,
+                                "checkedOld": false,
+                                "nocheck": false,
+                                "chkDisabled": false,
+                                "halfCheck": false,
+                                "check_Child_State": -1,
+                                "check_Focus": false,
+                                "isHover": false,
+                                "editNameFlag": false
+                            },
+                            {
+                                "id": 147,
+                                "pId": 17,
+                                "name": "Demo 07",
+                                "class": "icon-demos",
+                                "isParent": false,
+                                "level": 2,
+                                "tId": "xapptreelist_24",
+                                "parentTId": "xapptreelist_17",
+                                "open": false,
+                                "zAsync": true,
+                                "isFirstNode": false,
+                                "isLastNode": false,
+                                "isAjaxing": false,
+                                "checked": false,
+                                "checkedOld": false,
+                                "nocheck": false,
+                                "chkDisabled": false,
+                                "halfCheck": false,
+                                "check_Child_State": -1,
+                                "check_Focus": false,
+                                "isHover": false,
+                                "editNameFlag": false
+                            },
+                            {
+                                "id": 148,
+                                "pId": 17,
+                                "name": "Demo 08",
+                                "class": "icon-demos",
+                                "isParent": false,
+                                "level": 2,
+                                "tId": "xapptreelist_25",
+                                "parentTId": "xapptreelist_17",
+                                "open": false,
+                                "zAsync": true,
+                                "isFirstNode": false,
+                                "isLastNode": false,
+                                "isAjaxing": false,
+                                "checked": false,
+                                "checkedOld": false,
+                                "nocheck": false,
+                                "chkDisabled": false,
+                                "halfCheck": false,
+                                "check_Child_State": -1,
+                                "check_Focus": false,
+                                "isHover": false,
+                                "editNameFlag": false
+                            },
+                            {
+                                "id": 149,
+                                "pId": 17,
+                                "name": "Demo 09",
+                                "class": "icon-demos",
+                                "isParent": false,
+                                "level": 2,
+                                "tId": "xapptreelist_26",
+                                "parentTId": "xapptreelist_17",
+                                "open": false,
+                                "zAsync": true,
+                                "isFirstNode": false,
+                                "isLastNode": false,
+                                "isAjaxing": false,
+                                "checked": false,
+                                "checkedOld": false,
+                                "nocheck": false,
+                                "chkDisabled": false,
+                                "halfCheck": false,
+                                "check_Child_State": -1,
+                                "check_Focus": false,
+                                "isHover": false,
+                                "editNameFlag": false
+                            },
+                            {
+                                "id": 150,
+                                "pId": 17,
+                                "name": "Demo 10",
+                                "class": "icon-demos",
+                                "isParent": false,
+                                "level": 2,
+                                "tId": "xapptreelist_27",
+                                "parentTId": "xapptreelist_17",
+                                "open": false,
+                                "zAsync": true,
+                                "isFirstNode": false,
+                                "isLastNode": true,
+                                "isAjaxing": false,
+                                "checked": false,
+                                "checkedOld": false,
+                                "nocheck": false,
+                                "chkDisabled": false,
+                                "halfCheck": false,
+                                "check_Child_State": -1,
+                                "check_Focus": false,
+                                "isHover": false,
+                                "editNameFlag": false
+                            }
+                        ],
+                        "level": 1,
+                        "tId": "xapptreelist_17",
+                        "parentTId": "xapptreelist_1",
+                        "open": false,
+                        "zAsync": true,
+                        "isFirstNode": false,
+                        "isLastNode": true,
+                        "isAjaxing": false,
+                        "checked": false,
+                        "checkedOld": false,
+                        "nocheck": false,
+                        "chkDisabled": false,
+                        "halfCheck": false,
+                        "check_Child_State": 0,
+                        "check_Focus": false,
+                        "isHover": false,
+                        "editNameFlag": false
+                    }
+                ],
+                "level": 0,
+                "tId": "xapptreelist_1",
+                "parentTId": null,
+                "zAsync": true,
+                "isFirstNode": true,
+                "isLastNode": true,
+                "isAjaxing": false,
+                "checked": false,
+                "checkedOld": false,
+                "nocheck": false,
+                "chkDisabled": false,
+                "halfCheck": false,
+                "check_Child_State": 0,
+                "check_Focus": false,
+                "isHover": false,
+                "editNameFlag": false
+            }
+        ]
+    }
+}
