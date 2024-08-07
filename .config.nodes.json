@@ -425,17 +425,6 @@
                 "module": "node-red",
                 "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\node_modules\\@node-red\\nodes\\core\\storage\\23-watch.js"
             },
-            "xapp_base": {
-                "name": "xapp_base",
-                "types": [
-                    "ui_base"
-                ],
-                "enabled": true,
-                "local": false,
-                "user": false,
-                "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\node_modules\\@node-red\\nodes\\xapp\\xapp_base\\xapp_base.js"
-            },
             "rp.chart": {
                 "name": "rp.chart",
                 "types": [
@@ -846,6 +835,17 @@
                 "user": false,
                 "module": "node-red",
                 "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\ui_base\\ui_base.js"
+            },
+            "xapp_base": {
+                "name": "xapp_base",
+                "types": [
+                    "ui_base"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\xapp_base\\xapp_base.js"
             }
         }
     }

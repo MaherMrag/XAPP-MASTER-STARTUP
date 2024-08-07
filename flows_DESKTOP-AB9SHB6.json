@@ -1,0 +1,1 @@
+[{"id":"2a687854.142b08","type":"tab","label":"Flux 1","disabled":false,"info":""},{"id":"aea1aa0e.aec3e8","type":"s7.config","name":"_connection","ip":"192.168.1.200","port":"102","rack":"0","slot":"1","cycletime":"500","timeout":"1500","verbose":"on","payload":{},"class":"icon-connection"}]
