@@ -6,7 +6,7 @@ XAPP est une solution innovante conçue pour moderniser les processus industriel
   <img src="Instructions/Images/Authentification.png" alt="Logo de XAPP">
 </p>
 
-![Authentification XAPP](Instructions/Images/Authentification.png)
+
 # Déploiement de l'application Web
 Pour déployer l'application Web de XAPP sur votre serveur local ou distant, suivez les étapes ci-dessous :
 
