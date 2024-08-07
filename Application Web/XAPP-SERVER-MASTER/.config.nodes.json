@@ -14,7 +14,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\common\\05-junction.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\common\\05-junction.js"
             },
             "inject": {
                 "name": "inject",
@@ -25,7 +25,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\common\\20-inject.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\common\\20-inject.js"
             },
             "debug": {
                 "name": "debug",
@@ -36,7 +36,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\common\\21-debug.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\common\\21-debug.js"
             },
             "complete": {
                 "name": "complete",
@@ -47,7 +47,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\common\\24-complete.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\common\\24-complete.js"
             },
             "catch": {
                 "name": "catch",
@@ -58,7 +58,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\common\\25-catch.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\common\\25-catch.js"
             },
             "status": {
                 "name": "status",
@@ -69,7 +69,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\common\\25-status.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\common\\25-status.js"
             },
             "link": {
                 "name": "link",
@@ -82,7 +82,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\common\\60-link.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\common\\60-link.js"
             },
             "comment": {
                 "name": "comment",
@@ -93,7 +93,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\common\\90-comment.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\common\\90-comment.js"
             },
             "global-config": {
                 "name": "global-config",
@@ -104,7 +104,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\common\\91-global-config.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\common\\91-global-config.js"
             },
             "unknown": {
                 "name": "unknown",
@@ -115,7 +115,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\common\\98-unknown.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\common\\98-unknown.js"
             },
             "function": {
                 "name": "function",
@@ -126,7 +126,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\function\\10-function.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\function\\10-function.js"
             },
             "switch": {
                 "name": "switch",
@@ -137,7 +137,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\function\\10-switch.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\function\\10-switch.js"
             },
             "change": {
                 "name": "change",
@@ -148,7 +148,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\function\\15-change.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\function\\15-change.js"
             },
             "range": {
                 "name": "range",
@@ -159,7 +159,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\function\\16-range.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\function\\16-range.js"
             },
             "template": {
                 "name": "template",
@@ -170,7 +170,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\function\\80-template.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\function\\80-template.js"
             },
             "delay": {
                 "name": "delay",
@@ -181,7 +181,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\function\\89-delay.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\function\\89-delay.js"
             },
             "trigger": {
                 "name": "trigger",
@@ -192,7 +192,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\function\\89-trigger.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\function\\89-trigger.js"
             },
             "exec": {
                 "name": "exec",
@@ -203,7 +203,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\function\\90-exec.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\function\\90-exec.js"
             },
             "rbe": {
                 "name": "rbe",
@@ -214,7 +214,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\function\\rbe.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\function\\rbe.js"
             },
             "tls": {
                 "name": "tls",
@@ -225,7 +225,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\network\\05-tls.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\network\\05-tls.js"
             },
             "httpproxy": {
                 "name": "httpproxy",
@@ -236,7 +236,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\network\\06-httpproxy.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\network\\06-httpproxy.js"
             },
             "mqtt": {
                 "name": "mqtt",
@@ -249,7 +249,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\network\\10-mqtt.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\network\\10-mqtt.js"
             },
             "httpin": {
                 "name": "httpin",
@@ -261,7 +261,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\network\\21-httpin.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\network\\21-httpin.js"
             },
             "httprequest": {
                 "name": "httprequest",
@@ -272,7 +272,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\network\\21-httprequest.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\network\\21-httprequest.js"
             },
             "websocket": {
                 "name": "websocket",
@@ -286,7 +286,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\network\\22-websocket.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\network\\22-websocket.js"
             },
             "tcpin": {
                 "name": "tcpin",
@@ -299,7 +299,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\network\\31-tcpin.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\network\\31-tcpin.js"
             },
             "udp": {
                 "name": "udp",
@@ -311,7 +311,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\network\\32-udp.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\network\\32-udp.js"
             },
             "CSV": {
                 "name": "CSV",
@@ -322,7 +322,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\parsers\\70-CSV.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\parsers\\70-CSV.js"
             },
             "HTML": {
                 "name": "HTML",
@@ -333,7 +333,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\parsers\\70-HTML.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\parsers\\70-HTML.js"
             },
             "JSON": {
                 "name": "JSON",
@@ -344,7 +344,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\parsers\\70-JSON.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\parsers\\70-JSON.js"
             },
             "XML": {
                 "name": "XML",
@@ -355,7 +355,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\parsers\\70-XML.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\parsers\\70-XML.js"
             },
             "YAML": {
                 "name": "YAML",
@@ -366,7 +366,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\parsers\\70-YAML.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\parsers\\70-YAML.js"
             },
             "split": {
                 "name": "split",
@@ -378,7 +378,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\sequence\\17-split.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\sequence\\17-split.js"
             },
             "sort": {
                 "name": "sort",
@@ -389,7 +389,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\sequence\\18-sort.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\sequence\\18-sort.js"
             },
             "batch": {
                 "name": "batch",
@@ -400,7 +400,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\sequence\\19-batch.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\sequence\\19-batch.js"
             },
             "file": {
                 "name": "file",
@@ -412,7 +412,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\storage\\10-file.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\storage\\10-file.js"
             },
             "watch": {
                 "name": "watch",
@@ -423,7 +423,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\core\\storage\\23-watch.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\core\\storage\\23-watch.js"
             },
             "rp.chart": {
                 "name": "rp.chart",
@@ -434,7 +434,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\rp.chart\\rp.chart.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\rp.chart\\rp.chart.js"
             },
             "rp.report": {
                 "name": "rp.report",
@@ -445,7 +445,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\rp.report\\rp.report.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\rp.report\\rp.report.js"
             },
             "rp.template": {
                 "name": "rp.template",
@@ -456,7 +456,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\rp.template\\rp.template.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\rp.template\\rp.template.js"
             },
             "rp.widget": {
                 "name": "rp.widget",
@@ -467,7 +467,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\rp.widget\\rp.widget.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\rp.widget\\rp.widget.js"
             },
             "s7.alarm": {
                 "name": "s7.alarm",
@@ -478,7 +478,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\s7.batch\\s7.alarm\\s7.alarm.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\s7.batch\\s7.alarm\\s7.alarm.js"
             },
             "s7.batch": {
                 "name": "s7.batch",
@@ -489,7 +489,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\s7.batch\\s7.batch.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\s7.batch\\s7.batch.js"
             },
             "s7.phase": {
                 "name": "s7.phase",
@@ -500,7 +500,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\s7.batch\\s7.phase\\s7.phase.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\s7.batch\\s7.phase\\s7.phase.js"
             },
             "s7.status": {
                 "name": "s7.status",
@@ -511,7 +511,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\s7.batch\\s7.status\\s7.status.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\s7.batch\\s7.status\\s7.status.js"
             },
             "s7.trend": {
                 "name": "s7.trend",
@@ -522,7 +522,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\s7.batch\\s7.trend\\s7.trend.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\s7.batch\\s7.trend\\s7.trend.js"
             },
             "s7.calculator": {
                 "name": "s7.calculator",
@@ -533,7 +533,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\s7.calculator\\s7.calculator.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\s7.calculator\\s7.calculator.js"
             },
             "s7.config": {
                 "name": "s7.config",
@@ -544,7 +544,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\s7.config\\s7.config.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\s7.config\\s7.config.js"
             },
             "s7.db": {
                 "name": "s7.db",
@@ -556,7 +556,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\s7.db\\s7.db.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\s7.db\\s7.db.js"
             },
             "s7.group": {
                 "name": "s7.group",
@@ -567,7 +567,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\s7.group\\s7.group.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\s7.group\\s7.group.js"
             },
             "s7.io": {
                 "name": "s7.io",
@@ -578,7 +578,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\s7.io\\s7.io.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\s7.io\\s7.io.js"
             },
             "m.barchart": {
                 "name": "m.barchart",
@@ -589,7 +589,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\s7.mobile\\m.barchart\\m.barchart.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\s7.mobile\\m.barchart\\m.barchart.js"
             },
             "m.mmobile": {
                 "name": "m.mmobile",
@@ -600,7 +600,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\s7.mobile\\m.mobile\\m.mmobile.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\s7.mobile\\m.mobile\\m.mmobile.js"
             },
             "m.piechart": {
                 "name": "m.piechart",
@@ -611,7 +611,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\s7.mobile\\m.piechart\\m.piechart.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\s7.mobile\\m.piechart\\m.piechart.js"
             },
             "m.widget": {
                 "name": "m.widget",
@@ -622,7 +622,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\s7.mobile\\m.widget\\m.widget.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\s7.mobile\\m.widget\\m.widget.js"
             },
             "s7.statemachine": {
                 "name": "s7.statemachine",
@@ -633,7 +633,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\s7.statemachine\\s7.statemachine.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\s7.statemachine\\s7.statemachine.js"
             },
             "ui-card-panel": {
                 "name": "ui-card-panel",
@@ -642,7 +642,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\src\\components\\ui-card-panel\\ui-card-panel.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\src\\components\\ui-card-panel\\ui-card-panel.js"
             },
             "ui-chart-js": {
                 "name": "ui-chart-js",
@@ -651,7 +651,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\src\\components\\ui-chart-js\\ui-chart-js.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\src\\components\\ui-chart-js\\ui-chart-js.js"
             },
             "ui-gauge": {
                 "name": "ui-gauge",
@@ -660,7 +660,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\src\\components\\ui-gauge\\ui-gauge.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\src\\components\\ui-gauge\\ui-gauge.js"
             },
             "ui-icon": {
                 "name": "ui-icon",
@@ -669,7 +669,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\src\\components\\ui-icon\\ui-icon.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\src\\components\\ui-icon\\ui-icon.js"
             },
             "ui.barchart": {
                 "name": "ui.barchart",
@@ -680,7 +680,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\ui.barchart\\ui.barchart.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\ui.barchart\\ui.barchart.js"
             },
             "ui.chart": {
                 "name": "ui.chart",
@@ -691,7 +691,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\ui.chart\\ui.chart.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\ui.chart\\ui.chart.js"
             },
             "ui.datapoint": {
                 "name": "ui.datapoint",
@@ -702,7 +702,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\ui.datapoint\\ui.datapoint.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\ui.datapoint\\ui.datapoint.js"
             },
             "ui.gauge": {
                 "name": "ui.gauge",
@@ -713,7 +713,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\ui.gauge\\ui.gauge.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\ui.gauge\\ui.gauge.js"
             },
             "ui.group": {
                 "name": "ui.group",
@@ -724,7 +724,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\ui.group\\ui.group.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\ui.group\\ui.group.js"
             },
             "ui.infoBox": {
                 "name": "ui.infoBox",
@@ -735,7 +735,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\ui.infoBox\\ui.infoBox.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\ui.infoBox\\ui.infoBox.js"
             },
             "ui.inline": {
                 "name": "ui.inline",
@@ -746,7 +746,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\ui.inline\\ui.inline.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\ui.inline\\ui.inline.js"
             },
             "ui.linechart": {
                 "name": "ui.linechart",
@@ -757,7 +757,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\ui.linechart\\ui.linechart.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\ui.linechart\\ui.linechart.js"
             },
             "ui.piechart": {
                 "name": "ui.piechart",
@@ -768,7 +768,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\ui.piechart\\ui.piechart.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\ui.piechart\\ui.piechart.js"
             },
             "ui.progressBar": {
                 "name": "ui.progressBar",
@@ -779,7 +779,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\ui.progressBar\\ui.progressBar.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\ui.progressBar\\ui.progressBar.js"
             },
             "ui.progressBox": {
                 "name": "ui.progressBox",
@@ -790,7 +790,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\ui.progressBox\\ui.progressBox.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\ui.progressBox\\ui.progressBox.js"
             },
             "ui.spark": {
                 "name": "ui.spark",
@@ -801,7 +801,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\ui.spark\\ui.spark.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\ui.spark\\ui.spark.js"
             },
             "ui.tab": {
                 "name": "ui.tab",
@@ -812,7 +812,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\ui.tab\\ui.tab.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\ui.tab\\ui.tab.js"
             },
             "ui.template": {
                 "name": "ui.template",
@@ -823,7 +823,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\ui.template\\ui.template.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\ui.template\\ui.template.js"
             },
             "ui_base": {
                 "name": "ui_base",
@@ -834,7 +834,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\ui_base\\ui_base.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\ui_base\\ui_base.js"
             },
             "xapp_base": {
                 "name": "xapp_base",
@@ -845,7 +845,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\node_modules\\@node-red\\nodes\\xapp\\xapp_nodes\\xapp_base\\xapp_base.js"
+                "file": "D:\\100-XAPP\\02- XAPP APP WEB\\xapp-server-master\\node_modules\\XAPP-MASTER-STARTUP\\Application Web\\XAPP-SERVER-MASTER\\xapp\\nodes\\xapp\\xapp_nodes\\xapp_base\\xapp_base.js"
             }
         }
     }
