@@ -10,20 +10,18 @@
     },
     "main": "lib/red.js",
     "scripts": {
-        "start": "node xapp.js"
+        "start": "node xapp.js",
+        "postinstall": "npm-run-all install-editor-api install-nodes install-registry install-runtime install-util",
+        "install-editor-api": "cd xapp/editor-api && npm install",
+        "install-nodes": "cd xapp/nodes && npm install",
+        "install-registry": "cd xapp/registry && npm install",
+        "install-runtime": "cd xapp/runtime && npm install",
+        "install-util": "cd xapp/util && npm install"
     },
     "bin": {
         "node-red": "./red.js",
         "node-red-pi": "bin/node-red-pi"
     },
-    "contributors": [
-        {
-            "name": "Nick O'Leary"
-        },
-        {
-            "name": "Dave Conway-Jones"
-        }
-    ],
     "keywords": [
         "editor",
         "messaging",
@@ -31,10 +29,6 @@
         "flow"
     ],
     "dependencies": {
-        "@node-red/editor-api": "4.0.2",
-        "@node-red/nodes": "4.0.2",
-        "@node-red/runtime": "4.0.2",
-        "@node-red/util": "4.0.2",
         "basic-auth": "2.0.1",
         "bcryptjs": "2.4.3",
         "cors": "2.8.5",
@@ -50,5 +44,8 @@
     },
     "engines": {
         "node": ">=18.5"
+    },
+    "devDependencies": {
+        "npm-run-all": "^4.1.5"
     }
 }

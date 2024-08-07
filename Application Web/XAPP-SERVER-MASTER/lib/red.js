@@ -17,10 +17,10 @@
 var fs = require("fs");
 var path = require('path');
 
-var runtime = require("@node-red/runtime");
-var redUtil = require("@node-red/util");
+var runtime = require("../xapp/runtime");
+var redUtil = require("../xapp/util");
 
-var api = require("@node-red/editor-api");
+var api = require("../xapp/editor-api");
 
 var server = null;
 var apiEnabled = false;
@@ -65,7 +65,7 @@ module.exports = {
         }
 
         if (!userSettings.hasOwnProperty("coreNodesDir")) {
-            userSettings.coreNodesDir = path.dirname(require.resolve("@node-red/nodes"))
+            userSettings.coreNodesDir = path.dirname(require.resolve("../xapp/nodes"))
         }
         redUtil.init(userSettings);
         if (userSettings.httpAdminRoot !== false) {
