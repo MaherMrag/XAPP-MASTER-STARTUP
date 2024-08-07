@@ -2433,34 +2433,26 @@
                                 "halfCheck": false,
                                 "check_Child_State": 0,
                                 "check_Focus": false,
-                                "isHover": false,
+                                "isHover": true,
                                 "editNameFlag": false,
                                 "children": [
                                     {
-                                        "id": "e36dab2.4f1ee58",
-                                        "type": "ui.piechart",
+                                        "id": "3aad4039.3afd7",
+                                        "type": "ui.gauge",
                                         "parentid": "79e84d2d.40f024",
                                         "z": "2a687854.142b08",
-                                        "name": "PeiChart",
-                                        "datapoints": {},
+                                        "name": "Product 01",
                                         "_def": {
                                             "category": "dashboard",
                                             "color": "rgb(119, 198, 204)",
                                             "autoedit": true,
                                             "defaults": {
                                                 "name": {
-                                                    "value": "_PeiChart"
-                                                },
-                                                "order": {
-                                                    "value": 0
-                                                },
-                                                "payload": {
-                                                    "value": {}
+                                                    "value": "_Gauge"
                                                 },
                                                 "parentid": {},
-                                                "z": {},
-                                                "datapoints": {
-                                                    "value": {}
+                                                "tag": {
+                                                    "value": ""
                                                 },
                                                 "width": {
                                                     "value": 5
@@ -2468,96 +2460,33 @@
                                                 "height": {
                                                     "value": 5
                                                 },
+                                                "class": {
+                                                    "value": "icon-ui-gauge"
+                                                },
                                                 "x": {
                                                     "value": 0
                                                 },
                                                 "y": {
                                                     "value": 0
                                                 },
-                                                "class": {
-                                                    "value": "icon-ui-piechart"
+                                                "z": {},
+                                                "field": {
+                                                    "value": "payload"
                                                 },
-                                                "startdate": {
-                                                    "value": "2024-08-06T23:00:00.000Z"
+                                                "fieldType": {
+                                                    "value": "msg"
                                                 },
-                                                "enddate": {
-                                                    "value": "2024-08-07T22:59:59.999Z"
+                                                "formatt": {
+                                                    "value": "handlebars"
                                                 },
-                                                "charttheme": {
-                                                    "value": "infographic"
+                                                "syntax": {
+                                                    "value": "mustache"
                                                 },
-                                                "title": {
-                                                    "value": "title"
+                                                "template": {
+                                                    "value": ""
                                                 },
-                                                "subtitle": {
-                                                    "value": "subtitle"
-                                                },
-                                                "title_alignvertical": {
-                                                    "value": "top"
-                                                },
-                                                "title_alignhorizontal": {
-                                                    "value": "left"
-                                                },
-                                                "show_title": {
-                                                    "value": true
-                                                },
-                                                "show_toolbox": {
-                                                    "value": true
-                                                },
-                                                "toolbox_alignvertical": {
-                                                    "value": "top"
-                                                },
-                                                "toolbox_alignhorizontal": {
-                                                    "value": "right"
-                                                },
-                                                "toolbox_orientation": {
-                                                    "value": "vertical"
-                                                },
-                                                "show_legend": {
-                                                    "value": true
-                                                },
-                                                "legend_alignvertical": {
-                                                    "value": "bottom"
-                                                },
-                                                "legend_alignhorizontal": {
-                                                    "value": "center"
-                                                },
-                                                "legend_orientation": {
-                                                    "value": "horizontal"
-                                                },
-                                                "chartType": {
-                                                    "value": "pie"
-                                                },
-                                                "radius": {
-                                                    "value": "20"
-                                                },
-                                                "chartsize": {
-                                                    "value": "50"
-                                                },
-                                                "center_horizontal": {
-                                                    "value": "50"
-                                                },
-                                                "center_vertical": {
-                                                    "value": "50"
-                                                },
-                                                "roseType": {
-                                                    "value": "radius"
-                                                },
-                                                "colors": {
-                                                    "value": [
-                                                        "#1F77B4",
-                                                        "#AEC7E8",
-                                                        "#FF7F0E",
-                                                        "#2CA02C",
-                                                        "#98DF8A",
-                                                        "#D62728",
-                                                        "#FF9896",
-                                                        "#9467BD",
-                                                        "#C5B0D5"
-                                                    ]
-                                                },
-                                                "outputs": {
-                                                    "value": 1
+                                                "output": {
+                                                    "value": "str"
                                                 }
                                             },
                                             "inputs": 1,
@@ -2568,12 +2497,12 @@
                                             "align": "right",
                                             "icon": "ui_chart.png",
                                             "paletteLabel": "chart",
-                                            "type": "ui.piechart",
+                                            "type": "ui.gauge",
                                             "set": {
-                                                "id": "node-red/ui.piechart",
-                                                "name": "ui.piechart",
+                                                "id": "node-red/ui.gauge",
+                                                "name": "ui.gauge",
                                                 "types": [
-                                                    "ui.piechart"
+                                                    "ui.gauge"
                                                 ],
                                                 "enabled": true,
                                                 "local": false,
@@ -2583,54 +2512,349 @@
                                                 "added": true
                                             }
                                         },
-                                        "order": 0,
-                                        "payload": {},
+                                        "tag": "",
                                         "width": 5,
                                         "height": 5,
+                                        "class": "icon-ui-gauge",
                                         "x": 0,
                                         "y": 0,
-                                        "class": "icon-ui-piechart",
-                                        "startdate": "2024-08-06T23:00:00.000Z",
-                                        "enddate": "2024-08-07T22:59:59.999Z",
-                                        "charttheme": "infographic",
-                                        "title": "title",
-                                        "subtitle": "subtitle",
-                                        "title_alignvertical": "top",
-                                        "title_alignhorizontal": "left",
-                                        "show_title": true,
-                                        "show_toolbox": true,
-                                        "toolbox_alignvertical": "top",
-                                        "toolbox_alignhorizontal": "right",
-                                        "toolbox_orientation": "vertical",
-                                        "show_legend": true,
-                                        "legend_alignvertical": "bottom",
-                                        "legend_alignhorizontal": "center",
-                                        "legend_orientation": "horizontal",
-                                        "chartType": "pie",
-                                        "radius": "20",
-                                        "chartsize": "50",
-                                        "center_horizontal": "50",
-                                        "center_vertical": "50",
-                                        "roseType": "radius",
-                                        "colors": [
-                                            "#1F77B4",
-                                            "#AEC7E8",
-                                            "#FF7F0E",
-                                            "#2CA02C",
-                                            "#98DF8A",
-                                            "#D62728",
-                                            "#FF9896",
-                                            "#9467BD",
-                                            "#C5B0D5"
-                                        ],
-                                        "outputs": 1,
+                                        "field": "payload",
+                                        "fieldType": "msg",
+                                        "formatt": "handlebars",
+                                        "syntax": "mustache",
+                                        "template": "",
+                                        "output": "str",
                                         "level": 3,
-                                        "tId": "xapptreelist_28",
+                                        "tId": "xapptreelist_29",
                                         "parentTId": "xapptreelist_27",
                                         "open": false,
                                         "isParent": false,
                                         "zAsync": true,
                                         "isFirstNode": true,
+                                        "isLastNode": false,
+                                        "isAjaxing": false,
+                                        "pId": "79e84d2d.40f024",
+                                        "checked": false,
+                                        "checkedOld": false,
+                                        "nocheck": false,
+                                        "chkDisabled": false,
+                                        "halfCheck": false,
+                                        "check_Child_State": -1,
+                                        "check_Focus": false,
+                                        "isHover": false,
+                                        "editNameFlag": false
+                                    },
+                                    {
+                                        "id": "4841dd6c.11b784",
+                                        "type": "ui.gauge",
+                                        "parentid": "79e84d2d.40f024",
+                                        "z": "2a687854.142b08",
+                                        "name": "Product 02",
+                                        "_def": {
+                                            "category": "dashboard",
+                                            "color": "rgb(119, 198, 204)",
+                                            "autoedit": true,
+                                            "defaults": {
+                                                "name": {
+                                                    "value": "_Gauge"
+                                                },
+                                                "parentid": {},
+                                                "tag": {
+                                                    "value": ""
+                                                },
+                                                "width": {
+                                                    "value": 5
+                                                },
+                                                "height": {
+                                                    "value": 5
+                                                },
+                                                "class": {
+                                                    "value": "icon-ui-gauge"
+                                                },
+                                                "x": {
+                                                    "value": 0
+                                                },
+                                                "y": {
+                                                    "value": 0
+                                                },
+                                                "z": {},
+                                                "field": {
+                                                    "value": "payload"
+                                                },
+                                                "fieldType": {
+                                                    "value": "msg"
+                                                },
+                                                "formatt": {
+                                                    "value": "handlebars"
+                                                },
+                                                "syntax": {
+                                                    "value": "mustache"
+                                                },
+                                                "template": {
+                                                    "value": ""
+                                                },
+                                                "output": {
+                                                    "value": "str"
+                                                }
+                                            },
+                                            "inputs": 1,
+                                            "outputs": 1,
+                                            "outputLabels": [
+                                                "chart state"
+                                            ],
+                                            "align": "right",
+                                            "icon": "ui_chart.png",
+                                            "paletteLabel": "chart",
+                                            "type": "ui.gauge",
+                                            "set": {
+                                                "id": "node-red/ui.gauge",
+                                                "name": "ui.gauge",
+                                                "types": [
+                                                    "ui.gauge"
+                                                ],
+                                                "enabled": true,
+                                                "local": false,
+                                                "user": false,
+                                                "module": "node-red",
+                                                "version": "4.0.2-git",
+                                                "added": true
+                                            }
+                                        },
+                                        "tag": "",
+                                        "width": 5,
+                                        "height": 5,
+                                        "class": "icon-ui-gauge",
+                                        "x": 0,
+                                        "y": 0,
+                                        "field": "payload",
+                                        "fieldType": "msg",
+                                        "formatt": "handlebars",
+                                        "syntax": "mustache",
+                                        "template": "",
+                                        "output": "str",
+                                        "level": 3,
+                                        "tId": "xapptreelist_30",
+                                        "parentTId": "xapptreelist_27",
+                                        "open": false,
+                                        "isParent": false,
+                                        "zAsync": true,
+                                        "isFirstNode": false,
+                                        "isLastNode": false,
+                                        "isAjaxing": false,
+                                        "pId": "79e84d2d.40f024",
+                                        "checked": false,
+                                        "checkedOld": false,
+                                        "nocheck": false,
+                                        "chkDisabled": false,
+                                        "halfCheck": false,
+                                        "check_Child_State": -1,
+                                        "check_Focus": false,
+                                        "isHover": false,
+                                        "editNameFlag": false
+                                    },
+                                    {
+                                        "id": "23b7b59f.b454ca",
+                                        "type": "ui.gauge",
+                                        "parentid": "79e84d2d.40f024",
+                                        "z": "2a687854.142b08",
+                                        "name": "Product 03",
+                                        "_def": {
+                                            "category": "dashboard",
+                                            "color": "rgb(119, 198, 204)",
+                                            "autoedit": true,
+                                            "defaults": {
+                                                "name": {
+                                                    "value": "_Gauge"
+                                                },
+                                                "parentid": {},
+                                                "tag": {
+                                                    "value": ""
+                                                },
+                                                "width": {
+                                                    "value": 5
+                                                },
+                                                "height": {
+                                                    "value": 5
+                                                },
+                                                "class": {
+                                                    "value": "icon-ui-gauge"
+                                                },
+                                                "x": {
+                                                    "value": 0
+                                                },
+                                                "y": {
+                                                    "value": 0
+                                                },
+                                                "z": {},
+                                                "field": {
+                                                    "value": "payload"
+                                                },
+                                                "fieldType": {
+                                                    "value": "msg"
+                                                },
+                                                "formatt": {
+                                                    "value": "handlebars"
+                                                },
+                                                "syntax": {
+                                                    "value": "mustache"
+                                                },
+                                                "template": {
+                                                    "value": ""
+                                                },
+                                                "output": {
+                                                    "value": "str"
+                                                }
+                                            },
+                                            "inputs": 1,
+                                            "outputs": 1,
+                                            "outputLabels": [
+                                                "chart state"
+                                            ],
+                                            "align": "right",
+                                            "icon": "ui_chart.png",
+                                            "paletteLabel": "chart",
+                                            "type": "ui.gauge",
+                                            "set": {
+                                                "id": "node-red/ui.gauge",
+                                                "name": "ui.gauge",
+                                                "types": [
+                                                    "ui.gauge"
+                                                ],
+                                                "enabled": true,
+                                                "local": false,
+                                                "user": false,
+                                                "module": "node-red",
+                                                "version": "4.0.2-git",
+                                                "added": true
+                                            }
+                                        },
+                                        "tag": "",
+                                        "width": 5,
+                                        "height": 5,
+                                        "class": "icon-ui-gauge",
+                                        "x": 0,
+                                        "y": 0,
+                                        "field": "payload",
+                                        "fieldType": "msg",
+                                        "formatt": "handlebars",
+                                        "syntax": "mustache",
+                                        "template": "",
+                                        "output": "str",
+                                        "level": 3,
+                                        "tId": "xapptreelist_31",
+                                        "parentTId": "xapptreelist_27",
+                                        "open": false,
+                                        "isParent": false,
+                                        "zAsync": true,
+                                        "isFirstNode": false,
+                                        "isLastNode": false,
+                                        "isAjaxing": false,
+                                        "pId": "79e84d2d.40f024",
+                                        "checked": false,
+                                        "checkedOld": false,
+                                        "nocheck": false,
+                                        "chkDisabled": false,
+                                        "halfCheck": false,
+                                        "check_Child_State": -1,
+                                        "check_Focus": false,
+                                        "isHover": false,
+                                        "editNameFlag": false
+                                    },
+                                    {
+                                        "id": "b8df10e2.d02d3",
+                                        "type": "ui.gauge",
+                                        "parentid": "79e84d2d.40f024",
+                                        "z": "2a687854.142b08",
+                                        "name": "Product 04",
+                                        "_def": {
+                                            "category": "dashboard",
+                                            "color": "rgb(119, 198, 204)",
+                                            "autoedit": true,
+                                            "defaults": {
+                                                "name": {
+                                                    "value": "_Gauge"
+                                                },
+                                                "parentid": {},
+                                                "tag": {
+                                                    "value": ""
+                                                },
+                                                "width": {
+                                                    "value": 5
+                                                },
+                                                "height": {
+                                                    "value": 5
+                                                },
+                                                "class": {
+                                                    "value": "icon-ui-gauge"
+                                                },
+                                                "x": {
+                                                    "value": 0
+                                                },
+                                                "y": {
+                                                    "value": 0
+                                                },
+                                                "z": {},
+                                                "field": {
+                                                    "value": "payload"
+                                                },
+                                                "fieldType": {
+                                                    "value": "msg"
+                                                },
+                                                "formatt": {
+                                                    "value": "handlebars"
+                                                },
+                                                "syntax": {
+                                                    "value": "mustache"
+                                                },
+                                                "template": {
+                                                    "value": ""
+                                                },
+                                                "output": {
+                                                    "value": "str"
+                                                }
+                                            },
+                                            "inputs": 1,
+                                            "outputs": 1,
+                                            "outputLabels": [
+                                                "chart state"
+                                            ],
+                                            "align": "right",
+                                            "icon": "ui_chart.png",
+                                            "paletteLabel": "chart",
+                                            "type": "ui.gauge",
+                                            "set": {
+                                                "id": "node-red/ui.gauge",
+                                                "name": "ui.gauge",
+                                                "types": [
+                                                    "ui.gauge"
+                                                ],
+                                                "enabled": true,
+                                                "local": false,
+                                                "user": false,
+                                                "module": "node-red",
+                                                "version": "4.0.2-git",
+                                                "added": true
+                                            }
+                                        },
+                                        "tag": "",
+                                        "width": 5,
+                                        "height": 5,
+                                        "class": "icon-ui-gauge",
+                                        "x": 0,
+                                        "y": 0,
+                                        "field": "payload",
+                                        "fieldType": "msg",
+                                        "formatt": "handlebars",
+                                        "syntax": "mustache",
+                                        "template": "",
+                                        "output": "str",
+                                        "level": 3,
+                                        "tId": "xapptreelist_32",
+                                        "parentTId": "xapptreelist_27",
+                                        "open": false,
+                                        "isParent": false,
+                                        "zAsync": true,
+                                        "isFirstNode": false,
                                         "isLastNode": true,
                                         "isAjaxing": false,
                                         "pId": "79e84d2d.40f024",
@@ -2641,7 +2865,7 @@
                                         "halfCheck": false,
                                         "check_Child_State": -1,
                                         "check_Focus": false,
-                                        "isHover": true,
+                                        "isHover": false,
                                         "editNameFlag": false
                                     }
                                 ]
