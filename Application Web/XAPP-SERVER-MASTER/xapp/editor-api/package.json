@@ -1,20 +1,12 @@
 {
-    "name": "@node-red/editor-api",
+    "name": "@xapp-server/editor-api",
     "version": "4.0.2",
     "license": "Apache-2.0",
     "main": "./lib/index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/node-red/node-red.git"
+        "url": "https://github.com/MaherMrag/XAPP-MASTER-STARTUP.git"
     },
-    "contributors": [
-        {
-            "name": "Nick O'Leary"
-        },
-        {
-            "name": "Dave Conway-Jones"
-        }
-    ],
     "dependencies": {
         "bcryptjs": "2.4.3",
         "body-parser": "1.20.2",

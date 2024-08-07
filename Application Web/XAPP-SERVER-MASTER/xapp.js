@@ -29,7 +29,7 @@ const os = require("os")
 var fs = require("fs-extra");
 const cors = require('cors');
 
-var RED = require("./lib/red.js");
+var RED = require("./lib/xapp.js");
 
 var server;
 var app = express();

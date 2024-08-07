@@ -1,20 +1,12 @@
 {
-    "name": "@node-red/runtime",
+    "name": "@xapp-server/runtime",
     "version": "4.0.2",
     "license": "Apache-2.0",
     "main": "./lib/index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/node-red/node-red.git"
+        "url": "https://github.com/MaherMrag/XAPP-MASTER-STARTUP.git"
     },
-    "contributors": [
-        {
-            "name": "Nick O'Leary"
-        },
-        {
-            "name": "Dave Conway-Jones"
-        }
-    ],
     "dependencies": {
         "async-mutex": "0.5.0",
         "clone": "2.1.2",

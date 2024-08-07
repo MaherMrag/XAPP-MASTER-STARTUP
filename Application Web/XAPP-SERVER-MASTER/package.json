@@ -1,14 +1,13 @@
 {
-    "name": "node-red",
+    "name": "xapp-server",
     "version": "4.0.2",
-    "description": "Low-code programming for event-driven applications",
-    "homepage": "https://nodered.org",
+    "description": "",
     "license": "Apache-2.0",
     "repository": {
         "type": "git",
-        "url": "https://github.com/node-red/node-red.git"
+        "url": "https://github.com/MaherMrag/XAPP-MASTER-STARTUP.git"
     },
-    "main": "lib/red.js",
+    "main": "lib/xapp.js",
     "scripts": {
         "start": "node xapp.js",
         "postinstall": "npm-run-all install-editor-api install-nodes install-registry install-runtime install-util",
@@ -19,7 +18,7 @@
         "install-util": "cd xapp/util && npm install"
     },
     "bin": {
-        "node-red": "./red.js",
+        "node-red": "./xapp.js",
         "node-red-pi": "bin/node-red-pi"
     },
     "keywords": [

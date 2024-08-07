@@ -1,19 +1,11 @@
 {
-    "name": "@node-red/nodes",
+    "name": "@xapp-server/nodes",
     "version": "4.0.2",
     "license": "Apache-2.0",
     "repository": {
         "type": "git",
-        "url": "https://github.com/node-red/node-red.git"
+        "url": "https://github.com/MaherMrag/XAPP-MASTER-STARTUP.git"
     },
-    "contributors": [
-        {
-            "name": "Nick O'Leary"
-        },
-        {
-            "name": "Dave Conway-Jones"
-        }
-    ],
     "dependencies": {
         "acorn": "8.11.3",
         "acorn-walk": "8.3.2",
