@@ -10,7 +10,7 @@
     },
     "main": "lib/red.js",
     "scripts": {
-        "start": "node red.js"
+        "start": "node xapp.js"
     },
     "bin": {
         "node-red": "./red.js",

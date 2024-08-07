@@ -46,7 +46,7 @@ const os = require("os")
 var fs = require("fs-extra");
 const cors = require('cors');
 
-var RED = require("./lib/red.js");
+var RED = require("XAPP-MASTER-STARTUP");
 
 var server;
 var app = express();
