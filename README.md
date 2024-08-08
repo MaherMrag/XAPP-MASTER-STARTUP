@@ -21,7 +21,7 @@ Lors du lancement de l'application, connectez-vous avec les identifiants suivant
   - **Password :** `admin`
 
 <p align="center">
-  <img src="Application Web/XAPP-SERVER-MASTER/support/authentification.png" alt="Logo de XAPP">
+  <img src="Application Web/XAPP-SERVER-MASTER/support/a_uthentification.png" alt="Logo de XAPP">
 </p>
 
 # **3. Screenshots**
