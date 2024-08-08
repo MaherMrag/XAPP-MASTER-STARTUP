@@ -1,49 +1,4 @@
-/**
- * Copyright JS Foundation and other contributors, http://js.foundation
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- **/
 
-/**
- * Local file-system based context storage
- *
- * Configuration options:
- * {
- *    base: "context",         // the base directory to use
- *                             // default: "context"
- *    dir: "/path/to/storage", // the directory to create the base directory in
- *                             // default: settings.userDir
- *    cache: true,             // whether to cache contents in memory
- *                             // default: true
- *    flushInterval: 30        // if cache is enabled, the minimum interval
- *                             // between writes to storage, in seconds. This
- *                                can be used to reduce wear on underlying storage.
- *                                default: 30 seconds
- *  }
- *
- *
- *  $HOME/.node-red/contexts
- *  ├── global
- *  │     └── global_context.json
- *  ├── <id of Flow 1>
- *  │     ├── flow_context.json
- *  │     ├── <id of Node a>.json
- *  │     └── <id of Node b>.json
- *  └── <id of Flow 2>
- *         ├── flow_context.json
- *         ├── <id of Node x>.json
- *         └── <id of Node y>.json
- */
 
 var fs = require('fs-extra');
 var path = require("path");
