@@ -9,17 +9,19 @@ XAPP est une solution innovante conçue pour moderniser les processus industriel
 ## **1. Procédure d'installation**
 ### **1.1. Installation des dépendances :**
 
-Exécutez la commande suivante pour installer toutes les dépendances nécessaires : npm install
+Exécutez la commande suivante pour installer toutes les dépendances nécessaires : 
+**`npm install`**
 
 ### **1.2. Démarrage de l'application  :**
 
-Lancez l'application avec la commande suivante : npm start
+Lancez l'application avec la commande suivante : 
+**`npm start`**
 
 ### **1.3. Authentification  :**
 
 Lors du lancement de l'application, connectez-vous avec les identifiants suivants :
-Login : admin
-Password : admin
+  - **Login :** `admin`
+  - **Password :** `admin`
 
 <p align="center">
   <img src="Application Web/XAPP-SERVER-MASTER/Support/Authentification.png" alt="Logo de XAPP">
