@@ -1,9 +1,6 @@
 # WELCOME TO XAPP
 
-XAPP est une solution innovante conçue pour moderniser les processus industriels en offrant une gestion simplifiée des systèmes MES. Développée en Node.js avec un noyau basé sur Node-RED, XAPP permet une acquisition, un traitement, et une visualisation en temps réel des données de production, accessibles à tout moment et depuis n'importe où.
-
-
-
+XAPP est une solution innovante conçue pour moderniser les processus industriels en offrant une gestion simplifiée des systèmes MES. Développée en **`Node.js`** et de noyau basé sur  **`Node-RED`** , XAPP permet une acquisition, un traitement, et une visualisation en temps réel des données de production, accessibles à tout moment et depuis n'importe où.
 
 # Application Web
 ## **1. Procédure d'installation**
